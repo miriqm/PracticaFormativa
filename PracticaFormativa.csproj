@@ -64,6 +64,18 @@
       <DependentUpon>frmInicio.cs</DependentUpon>
     </Compile>
     <Compile Include="semana3\Perro.cs" />
+    <Compile Include="Ventanas\frmVentana1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\frmVentana1.Designer.cs">
+      <DependentUpon>frmVentana1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\frmVentana2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\frmVentana2.Designer.cs">
+      <DependentUpon>frmVentana2.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -78,6 +90,12 @@
     </Compile>
     <EmbeddedResource Include="semana3\frmInicio.resx">
       <DependentUpon>frmInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\frmVentana1.resx">
+      <DependentUpon>frmVentana1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\frmVentana2.resx">
+      <DependentUpon>frmVentana2.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using PracticaFormativa.semana3;
+using PracticaFormativa.Ventanas;
 
 namespace PracticaFormativa
 {
@@ -18,7 +19,9 @@ namespace PracticaFormativa
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             // Application.Run(new Form1());
-            Application.Run(new frmInicio());
+            //Application.Run(new frmInicio()); //semana 3
+
+            Application.Run(new frmVentana1());
 
 
 
