@@ -16,5 +16,11 @@ namespace PracticaFormativa
         {
             InitializeComponent();
         }
+
+        private void btnClase_Click(object sender, EventArgs e)
+        {
+            
+
+        }
     }
 }

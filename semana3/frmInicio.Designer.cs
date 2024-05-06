@@ -28,33 +28,48 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnIngreso = new System.Windows.Forms.Button();
+            this.btnIngPerro = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // btnIngreso
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(252, 90);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(222, 80);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Uso de una clase";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnIngreso.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIngreso.Location = new System.Drawing.Point(252, 90);
+            this.btnIngreso.Name = "btnIngreso";
+            this.btnIngreso.Size = new System.Drawing.Size(222, 80);
+            this.btnIngreso.TabIndex = 0;
+            this.btnIngreso.Text = "Uso de una clase";
+            this.btnIngreso.UseVisualStyleBackColor = true;
+            // 
+            // btnIngPerro
+            // 
+            this.btnIngPerro.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIngPerro.Location = new System.Drawing.Point(252, 218);
+            this.btnIngPerro.Name = "btnIngPerro";
+            this.btnIngPerro.Size = new System.Drawing.Size(222, 80);
+            this.btnIngPerro.TabIndex = 1;
+            this.btnIngPerro.Text = "Ingresar Perro";
+            this.btnIngPerro.UseVisualStyleBackColor = true;
+            this.btnIngPerro.Click += new System.EventHandler(this.btnIngPerro_Click);
             // 
             // frmInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnIngPerro);
+            this.Controls.Add(this.btnIngreso);
             this.Name = "frmInicio";
             this.Text = "Uso de Clases";
+            this.Load += new System.EventHandler(this.frmInicio_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnIngreso;
+        private System.Windows.Forms.Button btnIngPerro;
     }
 }
